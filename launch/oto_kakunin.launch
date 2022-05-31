@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="oto_node" pkg="ros_satuei" type="oto_node.py" required="true" />
+  <node name="rqt_plot" pkg="rqt_plot" type="rqt_plot" args="/sound" />
+</launch>
